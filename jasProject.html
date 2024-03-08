@@ -1,0 +1,459 @@
+ <html>
+ <head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="mystyle.css">
+<title>My Tour Project </title>
+<style>
+    .jumbotron{
+        background-color:skyblue;
+        text-align: center;
+    }
+</style>
+ 
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <a class="navbar-brand" href="#">Tours & Travels</a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data
+target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria
+expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <ul class="navbar-nav mr-auto">
+ <li class="nav-item active">
+ <a class="nav-link" href="#">Home</a>
+ </li>
+ <li class="nav-item dropdown">
+ <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+ role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinations</a>
+ <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+ <div class="container">
+ <ul class="list-group">
+ <li class="list-group-item" > <a data-toggle="tab">domestic sites</a></li>
+ <li class="list-group-item" > <a data-toggle="tab">international sites</a></li>
+ </ul>
+ </div>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="#gallery"><b>Images</b></a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="#about"><b>About Us</b></a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="#footer"><b>Contact Us</b></a>
+ </li>
+ </ul>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+ <div class="login">
+ <button class="btn btn-outline-dark" data-toggle="modal" data-target="#regmodal"> Register here </button>
+ <div class="modal" id="regmodal">
+ <div class="modal-dialog">
+ <div class="modal-content">
+ <div class="modal-header">
+ <h3>Register</h3> <button class="close" data-dismiss="modal">&times; </button>
+ </div>
+ <div class="modal-body">
+ <form>
+ <div class="form-group">
+ <input type="text" placeholder="Fullname" class="form-control">
+ </div>
+ <div class="form-group">
+ <input type="email" placeholder="Email id" class="form-control">
+ </div>
+ <div class="form-group">
+ <input type="password" placeholder="Password" class="form-control">
+ </div>
+ <div class="form-group">
+ <input type="tel" placeholder="Contact no." class="form-control">
+ </div>
+ <div class="form-group">
+ <button type="submit" class="btn btn-outline-success"> Register </button>
+ </div>
+ <div class="form-group">
+ <p>already have an account? <a href="#loginmodal" data-toggle="modal" data-dismiss=modal> login </a></p>
+ </div>
+ </form>
+ <div class="modal-footer">
+ <button class="btn btn-outline-danger" data-dismiss="modal">
+ Cancel</button>
+ </div>
+ </div>
+ </div>
+ </div>
+</div>
+
+ <button class="btn btn-outline-dark" data-toggle="modal" data-target="#loginmodal"> Login </button>
+ <div class="modal" id="loginmodal">
+ <div class="modal-dialog" >
+ <div class="modal-content">
+ <div class="modal-header">
+ <h3>Login </h3><button class="close" data-dismiss="modal"> &times;</button>
+ </div>
+ <div class="modal-body">
+ <form>
+ <div class="form-group">
+ <input type="email" placeholder="Email id" class="form-control">
+ </div>
+ <div class="form-group">
+ <input type="password" placeholder="Password" class="form-control">
+ </div>
+ <div class="form-group">
+ <button type="submit" class="btn btn-outline-success"> Login </button>
+ </div>
+ </form>
+ <div class="modal-footer">
+ <button class="btn btn-outline-danger" data-dismiss="modal">Cancel</button>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ &nbsp; <button class="btn btn-outline-dark" > Help?</button>
+</nav>
+
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <div class="row">
+                <h1> Explore</h1>
+                <p><b>As one of the largest travel & tour operators in the country Balmer Lawrie Travel & Vacations provides end-to-end domestic and international travel services including -ticketing, tourism and MICE related services to its clients. </b></p>
+            </div>
+         </div>
+    </div>
+ 
+ 
+
+
+
+
+ <div class="container-fluid">
+  <img src="image\laksh.jpeg" class="destination-img" alt="Destination 1">
+ <div class="destination-desc">
+ <h2>Lakshwadweep</h2>
+ <P><b>Lakshadweep, the group of 36 islands is known for its exotic and sun-kissed beaches and lush green landscape. The name Lakshadweep in Malayalam and Sanskrit means 'a hundred thousand islands'. India's smallest Union Territory Lakshadweep is an archipelago consisting of 36 islands with an area of 32 sq km.</P></b>
+ <P><b>Things to do in Lakshadweep</P>
+    <p>1.Scuba Diving: Marine life is abundant on Kalpeni Island in Lakshadweep. </p>
+    <p>2.Dolphin Watching: The Agatti and Bangaram Islands of Lakshadweep are excellent spots for viewing dolphins in India.</P>
+    <p>3.Kayaking: Kayaking and canoeing in Minicoy Island's shallow waters are popular. </p></b>
+ <a href="#" class="btn btn-outline-dark">Book Now</a>
+ </div>
+ </div>
+
+
+<div class="container-fluid">
+ <img src="taj.jpg" class="destination-img" alt="Destination 1"> 
+ <div class="destination-desc">
+ <h2>Agra</h2>
+ <P><b>Agra is best known for the Taj Mahal (17th century), designated a UNESCO World Heritage site in 1983. A complex mausoleum, the Taj Mahal is often considered to be the world's best example of Mughal architecture. The Mughal emperor Shah Jahān built it for his favourite wife, Mumtāz Maḥal, in the mid-17th century.</P>
+ <P>Taj Mahal. “The embodiment of all things pure”, said Rudyard Kipling on Taj Mahal's beauty and that is no wordplay as the Taj is undoubtedly a pure epitome of beauty.</P>
+1.Agra Fort. <br>
+2.Sikandra/Akbar's Tomb <br>
+3.Itmad-Ud-Daula. <br>
+4.Chini Ka Rauza. <br>
+5.Mariam's Tomb. <br>
+6.Ram Bagh.<br>
+7.Nagina Masjid<br></b>
+ <a href="#" class="btn btn-outline-dark">Book Now</a>
+ </div>
+</div>
+ 
+
+ <div class="container-fluid">
+ <img src="shimla.jpg" class="destination-img" alt="Destination 3"
+ <div class="destination-desc">
+ <h2>Shimla</h2>
+<P><b>Shimla was once a summer retreat for the British rulers and has become one of the most visited tourist destinations of India. It is also the capital city of the Himachal Pradesh located in the north part of India. Shimla has Kinnaur in its east, Kullu and Mandi in its north and Solan and Sirmaur on its south and the state of Uttarakhand in its south-east direction. Shimla has improved a lot in terms of education and economy. Many renowned educational institutes are here and many notable persons from India as well as outside have been educated here. Shimal houses many vintage architectural marvels and most of them were built during the British rules. The city has temples, churches and palaces which still bear the rich culture and heritage of our country..</P>
+<p> Activities you can do in Shimla are:</p>
+1.River Water Rafting.<br>
+2.Camping.<br>
+3.Paragliding.<br>
+4.Mountain Biking.<br>
+5.Skiing.<br>
+6.Golfing.<br>
+7.Ice Skating.<br>
+ <a href="#" class="btn btn-outline-dark">Book Now</a>
+ </div>
+ </div>
+
+<div class="container-fluid">
+ <img src="j.jpg" class="destination-img" alt="Destination 4">
+ <div class="destination-desc">
+ <h2>Jaipur</h2>
+ <P><b>Jaipur was founded in 1727 by Sawai Jai Singh, the Kachhwaha Rajput ruler of Amer, after whom the city is named.[10] It is one of the earliest planned cities of modern India, designed by Vidyadhar Bhattacharya.[11] During the British colonial period, the city served as the capital of Jaipur State. After Indian independence in 1947, Jaipur was made the capital of the newly formed state of Rajasthan in 1949.</P>
+ <P> With its vibrant culture, breathtaking architecture, and rich history, Jaipur is a city that captivates the hearts of travelers from around the world. Known for its majestic palaces, bustling markets, and warm hospitality, this city offers a treasure trove of experiences waiting to be explored..</P>
+ 
+<p>Places to Visit in Jaipur </p>
+1. Amber Fort and Palace<br>
+2. Nahargarh Fort<br>
+3. Jaigarh Fort<br>
+4. City Palace<br>
+5. Hawa Mahal<br>
+6. Jantar Mantar<br>
+7. Jal Mahal<br>
+8. Albert Hall <br> </b>
+
+
+ <a href="#" class="btn btn-outline-dark">Book Now</a>
+ </div>
+ </div>
+ 
+ <div class="container-fluid">
+  <img src="manalli.jpg" class="destination-img" alt="Destination 5">
+ <div class="destination-desc">
+ <h2>Manali</h2>
+ <P><b>Situated near the end of valley, Manali is one of the most attractive tourist spot not only of Himachal Pradesh, but of International fame also. Manali is synonymous streams and birdsong, forests and orchards and grandees of snow-capped mountains.</P>
+ <P>Places to visit in Manali</P>
+1.Tibetian monasteries<br>
+2.Manu temple<br>
+3.Jogini falls<br>
+4.The manali Gompa<br>
+5.Arjun Gufa<br>
+6.Nehru Kund<br>
+7.Museum of Himachal culture and folk art<br></b>
+ <a href="#" class="btn btn-outline-dark">Book Now</a>
+ </div>
+</div>
+  
+ 
+ <div id="gallery" class="container-fluid ">
+ <h1 class="Images-heading">Welcome to the world of Iamges</h1>
+ <li class="list-content">
+ <div class="container">
+ <div class="row">
+ <div class="col-md-3">
+
+ <ul class="list-group">
+ <li class="list-group-item" > <a href="#des1" data-toggle="tab"> Lakshdweep </a></li>
+
+ <li class="list-group-item" > <a href="#des2" data-toggle="tab"> Agra </a></li>
+ <li class="list-group-item" > <a href="#des3" data-toogle="tab"> Shimla </a></li>
+ <li class="list-group-item" > <a href="#des4" data-toggle="tab"> Jaipur </a></li>
+ <li class="list-group-item" > <a href="#des5" data-toggle="tab"> Manali </a></li>
+ </ul>
+ </div>
+ <div class="col-md-9">
+ <div class="col-md-9 tab-content">
+ <div id="des1" class="tab-pane active">
+ <h3>Lakshdweep</h3>
+ <div class="row">
+ <div class="col-md-4">
+ <img src="image\lak1.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\lak2.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\lak3.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\lak4.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\lak5.jpg" class="img-fluid">
+ </div>
+
+ </div>
+ </div>
+ <div id="des2" class="tab-pane">
+ <h3>Agra</h3>
+ <div class="row">
+ <div class="col-md-4">
+ <img src="image\agra1.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\agra2.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\agra9.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\agra10.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\agra7.jpg" class="img-fluid">
+ </div>
+ 
+
+</div>
+ </div>
+ <div id="des3" class="tab-pane">
+ <h3>Shimla</h3>
+ <div class="row">
+ <div class="col-md-4">
+ <img src="image\shimla1.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\shimla2.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\shimla3.jpg" class="img-fluid">
+ </div>
+<div class="col-md-4">
+ <img src="image\shimla4.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\shimla5.jpg" class="img-fluid">
+ </div>
+
+
+
+
+
+
+ </div>
+ </div>
+
+
+
+
+
+ <div id="des4" class="tab-pane">
+ <h3>Jaipur</h3>
+ <div class="row">
+ <div class="col-md-4">
+ <img src="image\jai1.jpg" class="img-fluid
+ </div>
+ <div class="col-md-4">
+ <img src="image\jai2.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\jai3.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\jai4.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\jai5.jpg" class="img-fluid">
+ </div>
+ </div>
+ </div>
+
+
+ <div id="des5" class="tab-pane">
+ <h3>Manali</h3>
+ <div class="row">
+ <div class="col-md-4">
+ <img src="" class="img
+fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\man1.jpg" class="img-fluid">
+ </div>
+ 
+ <div class="col-md-4">
+ <img src="image\man2.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\man3.jpg" class="img-fluid">
+ </div>
+<div class="col-md-4">
+ <img src="image\man4.jpg" class="img-fluid">
+ </div>
+ <div class="col-md-4">
+ <img src="image\man5.jpg" class="img-fluid">
+ </div>
+
+
+
+
+
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+ 
+ 
+</li>
+ </div>
+ </div>
+ <section id="about" class="about-section">
+ <div class="container">
+ <div class="row">
+ <h2 class="about-heading">About Us</h2>
+ <p class="about-content">
+          <b>Welcome to JAS Travel Agency, where we believe in creating unforgettable 
+travel experiences. Our mission is to provide exceptional service and personalized 
+itineraries to every traveler.
+ </p>
+ <p class="about-content">
+  At JAS Travel Agency, we offer a wide range of services including 
+personalized trip planning, hotel reservations, transportation arrangements, and guided 
+tours. What sets us apart is our attention to detail, dedication to customer 
+satisfaction, and passion for travel.
+ </p>
+ <p class="about-content">
+  Whether you're planning a relaxing beach vacation, an adventurous trek 
+through the mountains, or a cultural exploration of vibrant cities, we're here to make 
+your travel dreams a reality.</b>
+ </p>
+ </div>
+ </div>
+ </section>
+ </body>
+ <hr>
+ <footer id="footer" class="footer text-center">
+ <div class="container">
+ <div class="row">
+ <div class="col-md-4">
+ <h2>Contact Us</h2>
+ <p><b>Phone:</b> +91 0987654321</p>
+ <p><b>Email:</b> jas.@gmail.com</p>
+ <p><b>Address:</b> Navi Street, Mumabi, India</p>
+ </div>
+ <div class="col-md-4">
+ <h4>Follow Us</h4>
+ <ul class="list-inline">
+ <li class="list-inline-item"><a href="https://www.facebook.com"><img
+ src="images\fb.jpeg" alt="Facebook" height="30"></a></li>
+ <li class="list-inline-item"><a href="https://www.instagram.com"><img
+ src="images\insta.jpeg" alt="Instagram" height="30"></a></li>
+ <li class="list-inline-item"><a href="https://www.twitter.com"><img
+ src="images\twtw.jpg" alt="Twitter" height="30"></a></li>
+ </ul>
+ </div>
+ <div class="col-md-4">
+ <h3>Have questions? Send us a message or call on our  helpline</h3>
+ <form>
+ <div class="form-group">
+ <input type="text" class="form-control" placeholder="Ask your 
+questions...">
+ </div>
+ <button type="submit" class="btn btn-outline-primary">submit</button>
+ </form>
+ 
+ 
+</div>
+ </div>
+ </div>
+ </footer>
+ </html>
+ 
